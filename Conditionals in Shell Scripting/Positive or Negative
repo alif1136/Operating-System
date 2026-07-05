@@ -1,0 +1,10 @@
+#!/bin/bash
+
+read -p "Enter number: " n
+
+if [ $n -ge 0 ]
+then
+    echo "Positive"
+else
+    echo "Negative"
+fi
