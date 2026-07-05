@@ -1,0 +1,11 @@
+#!/bin/bash
+
+read -p "Enter first number: " a
+read -p "Enter second number: " b
+
+if [ $a -gt 0 ] && [ $b -gt 0 ]
+then
+    echo "Both Positive"
+else
+    echo "Not Both Positive"
+fi
