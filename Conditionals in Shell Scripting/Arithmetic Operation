@@ -1,0 +1,12 @@
+#!/bin/bash
+
+read -p "Enter first number: " a
+read -p "Enter second number: " b
+read -p "Enter operator (+,-,*,/): " op
+
+case $op in
++) echo $((a+b));;
+-) echo $((a-b));;
+*) echo $((a*b));;
+/) echo $((a/b));;
+esac
