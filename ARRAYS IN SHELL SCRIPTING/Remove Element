@@ -1,0 +1,4 @@
+#!/bin/bash
+arr=(10 20 30 40)
+unset arr[2]
+echo ${arr[@]}
