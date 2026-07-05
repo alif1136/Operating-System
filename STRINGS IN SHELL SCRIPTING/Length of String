@@ -1,0 +1,3 @@
+#!/bin/bash
+read -p "Enter string: " s
+echo "Length = ${#s}"
