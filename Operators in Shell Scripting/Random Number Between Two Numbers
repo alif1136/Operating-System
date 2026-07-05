@@ -1,0 +1,6 @@
+#!/bin/bash
+
+read -p "Enter lower limit: " a
+read -p "Enter upper limit: " b
+
+echo $((RANDOM%(b-a+1)+a))
